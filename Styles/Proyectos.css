@@ -1,0 +1,177 @@
+    
+  
+
+  .proyectos {
+    padding: 0;
+  }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px; 
+        padding-top: 10px;
+    }
+
+    .gridElement {
+        background-color: var(--color2);
+        padding: 20px;
+        border-radius: 6px;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+        transition: transform 0.15s;
+    }
+
+    .gridElement:hover {
+        z-index: 2;
+        transform: translateY(-6px);
+    }
+
+
+    
+    .gridElement p {
+        padding-top: 0;
+        padding-top: 10px;
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+
+    .lugar1 {
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(0, 247, 255);
+        width: 80px;
+        margin: 0;
+        padding: 3px;
+        border-radius: 9px;
+        font-size: 11px;
+        font-family: Arial;
+        font-weight: 300;
+        color: var(--color1);
+        
+        
+    }
+
+    .gris {
+        display: block;
+        position: absolute;
+        color: rgb(187, 187, 187);
+        bottom: 19px;
+        font-size: 13px;
+        font-family: 'Fira Code';
+        font-weight: 300;
+    }
+
+
+
+
+    .proyectos img {
+        height: 110px;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 20px;
+        transition: transform 0.5s;
+    }
+
+    .proyectos img:hover {
+        transform: scale(1.6);
+        object-fit: contain;
+        border-radius: 5px;
+    }
+   
+    svg {
+        display: inline-block;
+        position: absolute;
+        height: 32px;
+        width: 32px;
+       right: 15px;
+       bottom: 15px;
+        
+    }
+
+    .proyectos i {
+        display: inline-block;
+        position: absolute;
+        font-size: 32px;
+       right: 15px;
+       bottom: 12px;
+    }
+
+    
+
+    #githubP1:hover, #githubP2:hover, #githubP3:hover, #cadP2:hover {
+        color: var(--color3);
+        cursor: pointer;
+    }
+    
+
+    
+    #lineaP {
+        width: 100%;
+        height: 2px;
+        border-radius: 1px;
+        margin-top: 3px;
+    }
+
+    #githubP1 {
+        color: rgba(4, 0, 255, 1);
+    }
+    .lineaP1 {
+        background-color: rgb(4, 0, 255);
+    }
+
+    #githubP2, #cadP2 {
+        color: rgb(4, 214, 4);
+    }
+    .lineaP2 {
+        background-color: rgb(4, 214, 4);
+    }
+    #cadP2 {
+        right: 60px;
+    }
+
+    #githubP3 {
+        color: rgb(255, 255, 71);
+    }
+    .lineaP3 {
+        background-color: rgb(255, 255, 71);
+    }
+
+    .lineaC1 {
+        background-color: rgb(255, 208, 0);
+    }
+
+    .lineaC2 {
+        background-color: red;
+    }
+
+    .lineaC3 {
+        background-color: rgb(209, 12, 209);
+    }
+
+
+   
+
+    .frc {
+        object-position: top;
+    }
+
+    .wer {
+        object-position: bottom;
+
+    }
+
+    .wro {
+        object-position: center;
+    }
+
+    .caterpillar {
+        object-position: right;
+    }
+
+   

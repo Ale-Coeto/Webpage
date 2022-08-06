@@ -1,0 +1,116 @@
+   
+:root{
+    --color5: white;
+    --color1: #1c1e24;
+    --color2: #2b313a;
+    --color4: #ff7373;
+    --color3: #09fdfd;
+    --color6: #1ad499;
+    --color7: #16b895;
+}
+
+@font-face {
+    src: url("../Fonts/Poppins-Medium.otf");
+    font-family: Poppins;
+
+}
+
+   html{
+    scroll-behavior: smooth;
+   }
+
+    body {
+        padding-top:60px;
+        font-family: 'Nunito', Arial;
+        margin: 0;
+        background-color: aquamarine;
+        color: white;
+        
+    }
+        section, main {
+            background-color: var(--color1);
+        }
+
+        section {
+            border-top: 1px solid var(--color2);
+            padding: 90px 200px 60px 200px;
+            
+
+        }
+
+        .sobreMi, .experiencia .proyectos, .contacto {
+            background-color: var(--color2);
+            padding: 80px;
+
+        }
+
+
+        .proyectos {
+            background-color: var(--color1);
+        }
+
+        #Home { 
+            display: block;
+        
+            padding: 100px;
+            margin: 0px;
+
+            z-index: 1;
+            background-image: linear-gradient(to right, var(--color3), var(--color6));
+
+        }
+        main {
+            display: flex;
+            height: 100%;
+        }
+        
+
+        .homeInfo {
+            display: block;
+            padding: 30px;
+            
+        }
+
+        .homeInfo h3 {
+            font-family: 'Fira Code';
+            font-weight: 400;
+        }
+
+     
+
+       
+          
+     
+
+    
+      
+        button {
+            margin-top: 30px;
+            height: 40px;
+            width: 110px;
+            border-radius: 20px;
+            border: 2px solid white;
+           
+            background-color: transparent;
+            color: white;
+        }
+
+        button:hover {
+            background-color: white;
+            color: var(--color6);
+            cursor: pointer !important;
+
+        }
+
+
+
+        
+
+    
+
+        
+
+    
+
+        
+

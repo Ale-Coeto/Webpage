@@ -1,0 +1,84 @@
+  
+  
+     .menuE {
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        gap: 80px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        right: 0;
+        left: 0;
+    }
+
+    .menuExperiencias {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        white-space: nowrap;
+        left: 0;
+        max-width: 120px;
+        
+    }
+
+    .menuExperiencias div {
+        border-left: 2px solid var(--color2);
+        background-color: var(--color1);
+        padding: 15px;
+        width: 100%;
+
+    }
+
+    #exVoltec {
+        border-left: 2px solid var(--color6);
+        background-color: var(--color2);
+    }
+
+    .menuExperiencias div:hover {
+        background-color: var(--color2) !important;
+        cursor: pointer !important;
+    }
+
+    .experiencias1 {
+        background-color: var(--color2);
+        padding: 40px 50px;
+        display: block;
+        margin: 0;
+        flex: 1;
+      }
+
+    .experiencias1 .subtitulo2::after {
+        background: var(--color6);
+    }
+
+
+
+    .exImg {
+        display: flex;
+        width: 120px;
+        height: 120px;
+        margin-right: 40px;
+        margin-top: 20px;
+        box-shadow: 0 0 5px var(--color6);
+        object-fit: cover;
+       
+    }
+
+    
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+
+   
+
+  /*  opacity: 0.6;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+*/

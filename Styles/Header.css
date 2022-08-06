@@ -1,0 +1,88 @@
+/* Header */
+    header {
+        color: white;
+        font-size: 14px;
+        font-family: 'Fira Code';
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        align-items: center;
+        justify-items: center;
+        z-index: 5;
+        background-image: linear-gradient(to right, var(--color3), var(--color6)) ;
+       box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+        
+        background-color: var(--color1);
+
+        
+   }
+
+   .logo {
+    padding:20px;
+    align-items: center;
+
+}
+
+.logo a {
+    width: 200px;
+    padding-left: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu div{
+    display: inline-block;
+}
+
+.linea {
+position:fixed;
+bottom: 0;
+width: 8px;
+height: 40%;
+right: 90px;
+border-radius: 5px;
+background-image: linear-gradient(to bottom, var(--color3), var(--color6));
+writing-mode: vertical-lr;
+color: white;
+font-family: 'Fira Code';
+line-height: 50px;
+font-size: 12px;
+font-weight: 100;
+
+}
+
+.linea2 {
+    position:fixed;
+    top: 0px;
+    left: 90px;
+    width: 8px;
+    height: 40%;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, var(--color3), var(--color6));
+    writing-mode: vertical-rl;
+    color: white;
+    font-family: 'Fira Code';
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 100;
+    z-index: 8;
+    
+    }
