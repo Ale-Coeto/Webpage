@@ -56,7 +56,7 @@
 position:fixed;
 bottom: 0;
 width: 8px;
-height: 40%;
+height: 50%;
 right: 90px;
 border-radius: 5px;
 background-image: linear-gradient(to bottom, var(--color3), var(--color6));
@@ -66,6 +66,7 @@ font-family: 'Fira Code';
 line-height: 50px;
 font-size: 12px;
 font-weight: 100;
+z-index: 0;
 
 }
 
@@ -74,7 +75,7 @@ font-weight: 100;
     top: 0px;
     left: 90px;
     width: 8px;
-    height: 40%;
+    height: 50%;
     border-radius: 5px;
     background-image: linear-gradient(to bottom, var(--color3), var(--color6));
     writing-mode: vertical-rl;
@@ -83,6 +84,6 @@ font-weight: 100;
     font-size: 12px;
     line-height: 50px;
     font-weight: 100;
-    z-index: 8;
+    z-index: 0;
     
     }
