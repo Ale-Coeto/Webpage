@@ -3,6 +3,7 @@
 
   .proyectos {
     padding: 0;
+    background-color: var(--color1);
   }
 
     .grid {

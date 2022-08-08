@@ -23,7 +23,7 @@
    }
 
     body {
-        padding-top:60px;
+        padding-top:0px;
         font-family: 'Nunito', Arial;
         margin: 0;
         background-color: var(--color1);
@@ -44,16 +44,15 @@
             
         }
 
-        .sobreMi, .experiencia .proyectos, .contacto {
+         .experiencia .proyectos, .contacto {
             background-color: var(--color2);
             padding: 80px;
 
         }
 
+        
 
-        .proyectos {
-            background-color: var(--color1);
-        }
+        
 
         #Home { 
             padding: 100px;
