@@ -44,12 +44,13 @@
             
         }
 
-         .experiencia .proyectos, .contacto {
+         .experiencia .proyectos {
             background-color: var(--color2);
             padding: 80px;
 
         }
 
+       
         
 
         

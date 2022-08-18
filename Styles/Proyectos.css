@@ -13,14 +13,15 @@
         padding-top: 10px;
     }
 
+            
+
     .gridElement {
         background-color: var(--color2);
         padding: 20px;
         border-radius: 6px;
         position: relative;
         z-index: 1;
-        padding-bottom: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
         transition: transform 0.15s;
     }
@@ -57,15 +58,7 @@
         
     }
 
-    .gris {
-        display: block;
-        position: absolute;
-        color: rgb(187, 187, 187);
-        bottom: 19px;
-        font-size: 13px;
-        font-family: 'Fira Code';
-        font-weight: 300;
-    }
+   
 
 
 
@@ -95,12 +88,37 @@
         
     }
 
+    .gris {
+        display: block;
+        color: rgb(187, 187, 187);
+        bottom: 19px;
+        font-size: 13px;
+        font-family: 'Fira Code';
+        font-weight: 300;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7px;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        right: 20px;
+
+    }
+
     .proyectos i {
         display: inline-block;
-        position: absolute;
+        margin-left: 10px;
         font-size: 32px;
-       right: 15px;
-       bottom: 12px;
+      
+    }
+
+    .gridElement {
+        padding-bottom: 50px;
     }
 
     
@@ -174,5 +192,29 @@
     .caterpillar {
         object-position: right;
     }
+
+            @media(max-width : 725px){
+                .grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            @media(min-width: 726px) and (max-width: 880px) {
+                .gridElement{
+                    padding-bottom: 90px;
+                }
+                
+
+                .proyectos i {
+                    bottom: 45px;
+                    left: 15px;
+                }
+            }
+            
+            @media(min-width : 726px) and (max-width : 1100px) {
+                .grid {
+                grid-template-columns: 1fr 1fr;
+                }
+            }
 
    
