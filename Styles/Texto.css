@@ -68,6 +68,10 @@
 
    }
 
+   a {
+    text-decoration: none;
+   }
+
   h2 {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -80,6 +84,8 @@
        line-height: 19px;
        color: white;
     }
+
+    .proyectos
 
   h4 {
       font-family: 'Fira Code', Arial;
