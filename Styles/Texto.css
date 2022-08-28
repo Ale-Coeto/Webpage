@@ -87,7 +87,7 @@
 
     .proyectos
 
-  h4 {
+  h4, #exFecha, #exFecha2 {
       font-family: 'Fira Code', Arial;
       font-size: 14px;
       font-weight: 500;

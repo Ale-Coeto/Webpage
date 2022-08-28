@@ -87,3 +87,11 @@ z-index: 0;
     z-index: 0;
     
     }
+
+    @media(max-width : 1000px){
+        .linea, .linea2{
+            height: 0;
+        }
+    }
+
+    

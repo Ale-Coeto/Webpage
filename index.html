@@ -89,15 +89,75 @@
             <li> Inglés  <span class="highlight"> Avanzado (B2) </span> </li>
             <li> Alemán <span class="highlight"> Intermedio (B1)</span>  </li>         
           </ul>
+          <!--Iconos-->
           <h2 class="subtitulo2"> Conocimientos Técnicos</h2>
-          <ul>
-            <li> Java <span class="highlight"> Avanzado </span> </li>
-            <li> HTML y CSS  <span class="highlight"> Intermedio </span>  </li>
-            <li> Javascript  <span class="highlight"> Principiante </span> </li>
-            <li> C++ <span class="highlight"> Principiante </span> </li>
-            <li> OnShape (CAD design)  <span class="highlight"> Avanzado </span> </li>
-            <li> Microsoft Office  <span class="highlight"> Avanzado </span> </li>
-          </ul>
+          <div class="gridListas">
+
+          <div class="elementLista"> 
+              <div class="vtc"><img src="Images/Icons/Java.png" class="cImg"> </div>
+              <div class="vtc">
+                  <h3> Java </h3> <span class="gris2"> Avanzado </span> 
+                  <div class="nivelBase">
+                    <div class="nivel90"></div> 
+                  </div>
+              </div>
+          </div>
+          <div class="elementLista"> 
+            <div class="vtc"><img src="Images/Icons/HTML.png" class="cImg"> </div>
+            <div class="vtc">
+                <h3> HTML/CSS </h3> <span class="gris2"> Avanzado </span> 
+                <div class="nivelBase">
+                  <div class="nivel70"></div> 
+                </div>
+            </div>
+          </div>
+          <div class="elementLista"> 
+            <div class="vtc"><img src="Images/Icons/Python.png" class="cImg"> </div>
+            <div class="vtc">
+                <h3> Python </h3> <span class="gris2"> Intermedio </span> 
+                <div class="nivelBase">
+                  <div class="nivel60"></div> 
+                </div>
+            </div>
+          </div>
+          <div class="elementLista"> 
+            <div class="vtc"><img src="Images/Icons/C++.png" class="cImg"> </div>
+            <div class="vtc">
+                <h3> C++ </h3> <span class="gris2"> Básico </span> 
+                <div class="nivelBase">
+                  <div class="nivel30"></div> 
+                </div>
+            </div>
+          </div>
+          <div class="elementLista"> 
+            <div class="vtc"><img src="Images/Icons/Arduino.png" class="cImg"> </div>
+            <div class="vtc">
+                <h3> Arduino </h3> <span class="gris2"> Intermedio </span> 
+                <div class="nivelBase">
+                  <div class="nivel50"></div> 
+                </div>
+            </div>
+          </div>
+          <div class="elementLista"> 
+            <div class="vtc"><img src="Images/Icons/OnShape.png" class="cImg"> </div>
+            <div class="vtc">
+                <h3> OnShape (CAD) </h3> <span class="gris2"> Avanzado </span> 
+                <div class="nivelBase">
+                  <div class="nivel90"></div> 
+                </div>
+            </div>
+          </div>
+          <div class="elementLista"> 
+            <div class="vtc"><img src="Images/Icons/Office.png" class="cImg"> </div>
+            <div class="vtc">
+                <h3> Microsoft Office </h3> <span class="gris2"> Avanzado </span> 
+                <div class="nivelBase">
+                  <div class="nivel99"></div> 
+                </div>
+            </div>
+          </div>
+        
+          </div>
          </div>
         </section>
 
@@ -106,33 +166,35 @@
         <section id="Section2">
         
           <h1 class="subtitulo"> <span class="num">02. </span> Experiencia y actividades </h1>
-          <div class="experiencia">
           <div class="menuE">
             
               <div class="menuExperiencias">
-                <div id="exVoltec" type="button" onclick='change(0)'> VOLTEC Robotics</div>
-                <div id="exMaestra" type="button" onclick='change(1)'> Maestra robótica</div>
-                <div id="exVitales" type="button" onclick='change(2)'> Vitales </div>
+                <div id="exVantTec" typpe="button" onclick='change(0)'> VantTec</div>
+                <div id="exVoltec" type="button" onclick='change(1)'> VOLTEC Robotics</div>
+                <div id="exMaestra" type="button" onclick='change(2)'> Maestra robótica</div>
+                <div id="exVitales" type="button" onclick='change(3)'> Vitales </div>
               </div>
 
               <div class="experiencias1">
                   <h3 id="exSubtitulo" class="subtitulo2"> VOLTEC Robotics </h3>
                   <div class="flex">
-                      <div id="exImg" > <img src="Images/Voltec.jpeg" class="exImg"> </div>
-                      <div>
-                        <h4 id="exFecha"> 2019-2022 </h4>
-                        <div id="exP"> <p>Líder de ingeniería del equipo representativo de robótica de la prepa Tec EGL. </p> 
-                        <div><ul><li>Programación del robot en Java</li> 
-                            <li>Diseño CAD en OnShape</li>
-                            <li>Mecánica y construcción de robots</li>
-                            <li>Participación en eventos de promoción de STEM para niños y jóvenes</li></ul>
-                        </div>
+                        <div id="exImg" > <img src="Images/Voltec.jpeg" class="exImg"> </div>
+                        <div>
+                            <h4 id="exFecha"> 2022-Presente</h4>
+                            <div id="exP"> <p> Mentora del equipo de FTC (FIRST TECH CHALLENGE) e impulsando la inclusión de mujeres en STEM. </p> </div>
+                        
+                          <h4 id="exFecha2"> 2019-2022 </h4>
+                          <div id="exP2"> <p>Líder de ingeniería del equipo representativo de robótica de la Prepa Tec EGL. </p> 
+                            <ul><li>Programación del robot en Java</li> 
+                              <li>Diseño CAD en OnShape</li>
+                              <li>Mecánica y construcción de robots</li>
+                              <li>Participación en eventos de promoción de STEM para niños y jóvenes</li></ul>
+                          </div>
                         </div>
                       </div>
                   </div>             
               </div>
 
-          </div>
           </div>
 
            
@@ -195,6 +257,8 @@
               <div id="lineaP" class="lineaC1"></div>
               <img src="Images/FRC.jpg" class="frc">
               <p> (First Robotics Competition) Competencia internacional de robótica, organizada por FIRST.</p>
+              <div class="lugar1"> Ranking 8/40 (Monterrey) </div>
+              <div class="lugar1"> Ranking 10/44 (Las Vegas)</div>
               <div class="footer">
               <div class="gris"> Java </div>
               </div>
