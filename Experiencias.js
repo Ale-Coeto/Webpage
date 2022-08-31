@@ -69,11 +69,23 @@ function change(i){
 
 function colores(i) {
     for (j = 0; j < experiencias.length; j++){
-        document.getElementById(experiencias[j].boton).style.borderLeft = "2px solid #2b313a";
+        if (screen.width <= 725){
+            document.getElementById(experiencias[j].boton).style.borderBottom = "2px solid #1c1e24";
+            }
+        else{
+            document.getElementById(experiencias[j].boton).style.borderLeft = "2px solid #2b313a";
+        }
         document.getElementById(experiencias[j].boton).style.background = "#1c1e24";
     }
 
     let btnBoton = document.getElementById(experiencias[i].boton);
-    btnBoton.style.borderLeft = "2px solid #1ad499";
+
+    if(screen.width <= 725){
+        btnBoton.style.borderBottom = "2px solid #1ad499";
+    }
+    else{
+        btnBoton.style.borderLeft = "2px solid #1ad499";
+    }
     btnBoton.style.background = "#2b313a";
 }
+

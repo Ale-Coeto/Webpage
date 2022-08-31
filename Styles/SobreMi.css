@@ -5,13 +5,66 @@
 
 .sobreMi h2 {
     margin-bottom: 25px;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding-top: 5px;
 }
 
 
 .sobreMi h3 {
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+.sobreMi li{
+    line-height: 5px;
+}
+
+.flexSobreMi {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+   
+}
+
+.perfilImg{
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    display: block;
+    margin-top: -90px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+        rgba(9,253,253,0.4), 
+        rgba(26,212,153, 0.4)
+    ),
+    /* your image */
+    url(../Images/Perfil.jpg);
+    background-position:start center;
+    background-size:cover;
+    
+}
+
+.perfilImg:hover{
+    background-image: 
+   
+    /* your image */
+    url(../Images/Perfil.jpg);
+    background-position:start center;
+    background-size:cover;
+}
+
+.divIdiomas{
+    flex: 1;
+    padding-left: 80px;
+}
+
+.txtSobreMi{
+    flex: 3;
 }
 
 .gridListas {
@@ -30,11 +83,12 @@
 }
 
 .cImg{
-    height: 50px;
-    width: 50px;
+    height: 42px;
+    width: 42px;
     background-color: white;
-    border: 2px solid white;
     box-shadow: 2px 2px 5px var(--color1);
+    border-radius: 30px;
+    padding: 6px;
 }
 
 .vtc {
@@ -74,7 +128,7 @@
     margin-left: 10px;
 }
 
-.nivel99, .nivel90, .nivel70, .nivel60, .nivel30, .nivel50{
+.nivel99, .nivel90, .nivel70, .nivel60, .nivel50, .nivel40, .nivel30{
     position: absolute;
     left: 0px;
     top: 0;
@@ -98,6 +152,9 @@
 .nivel50{
     width: 50%;
 }
+.nivel40 {
+    width: 40%;
+}
 .nivel30 {
     width: 30%;
 }
@@ -106,14 +163,34 @@
     .gridListas{
         grid-template-columns: 1fr;
     }
+    .divIdiomas{
+        flex: 1;
+        padding-left: 20px;
+    }
+    .txtSobreMi{
+        flex: 1.7;
+    }
+    .flexSobreMi{
+        column-gap: 20px;
+    }
+    
 }
 @media(min-width: 945px) and (max-width : 1210px){
     .gridListas{
         grid-template-columns: 1fr 1fr;
     }
+    .divIdiomas{
+        flex: 1;
+        padding-left: 20px;
+    }
+    .txtSobreMi{
+        flex: 2;
+    }
+    
 }
 @media(min-width: 1210px) and (max-width : 1450px){
     .gridListas{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }

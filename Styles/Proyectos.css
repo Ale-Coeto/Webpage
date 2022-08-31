@@ -36,6 +36,9 @@
         height: 100%;
         
     }
+    .grid2 a{
+        margin-bottom: 40px;
+    }
 
    
 
@@ -216,7 +219,18 @@
                     grid-template-columns: 1fr;
                 }
                 .grid2 {
-                    grid-template-columns: 1fr;
+                    grid-template-columns: 1fr 1fr;
+                    column-gap: 10px;
+                }
+                .gridElement{
+                    margin-left: 50px;
+                    margin-right: 50px;
+                }
+                .grid2 .gridElement{
+                    margin: 0;
+                }
+                p{
+                    font-size: 18px !important;
                 }
             }
 

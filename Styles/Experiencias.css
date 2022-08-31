@@ -11,6 +11,7 @@
         right: 0;
         left: 0;
     }
+    
 
     .menuExperiencias {
         display: flex;
@@ -20,6 +21,27 @@
         left: 0;
         max-width: 120px;
         
+    }
+    @media(max-width : 725px){
+        .menuE{
+            flex-direction: column;
+        }
+        .menuExperiencias{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+    }
+    @media(min-width : 725){
+        .menuExperiencias div {
+            border-left: 2px solid var(--color2);
+            border: solid var(--color1) !important;
+            border-top: none !important;
+        }
+    }
+
+    .experiencias1 #exFecha {
+        font-size: 17px;
     }
 
     .menuExperiencias div {
@@ -58,12 +80,14 @@
         display: flex;
         width: 180px;
         height: 180px;
-        margin-right: 40px;
+        margin-left: 50px;
         margin-top: 20px;
         box-shadow: 0 0 5px var(--color6);
         object-fit: cover;
        
     }
+
+
 
     
 
