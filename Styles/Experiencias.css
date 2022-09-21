@@ -13,6 +13,7 @@
     }
     
 
+    
     .menuExperiencias {
         display: flex;
         flex-direction: column;
@@ -25,11 +26,20 @@
     @media(max-width : 725px){
         .menuE{
             flex-direction: column;
+            gap: 30px;
         }
         .menuExperiencias{
             flex-direction: row;
             justify-content: space-between;
         }
+        .experiencias1{
+            padding: 10px !important;
+        }
+        #exVoltec{
+            border-bottom: 2px solid var(--color6);
+        }
+
+
         
     }
     @media(min-width : 725){
@@ -38,10 +48,29 @@
             border: solid var(--color1) !important;
             border-top: none !important;
         }
+        #exVoltec{
+            border-left: 2px solid var(--color6);
+        }
     }
 
-    .experiencias1 #exFecha {
+    .experiencias1 #exFecha, #exFecha2 {
         font-size: 17px;
+    }
+
+    #exFecha, #exFecha2 {
+        color: rgb(134, 134, 134);
+        font-weight: 500;
+    }
+
+    .exLogo {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        background-color: rgb(23, 33, 79);
+        margin-bottom: -40px;
+        object-fit: contain;
+        display: inline;
+
     }
 
     .menuExperiencias div {
@@ -53,7 +82,6 @@
     }
 
     #exVoltec {
-        border-left: 2px solid var(--color6);
         background-color: var(--color2);
     }
 
@@ -63,25 +91,31 @@
     }
 
     .experiencias1 {
-        background-color: var(--color2);
-        padding: 40px 50px;
+        background-color: var(--color1);
+        padding: 10px 50px;
         display: block;
         margin: 0;
         flex: 1;
       }
 
+    .experiencias1 .subtitulo2{
+        margin-left: 80px;
+    }
+
     .experiencias1 .subtitulo2::after {
         background: var(--color6);
     }
 
-
+    .experiencias1 ul{
+        padding-bottom: 0;
+    }
 
     .exImg {
         display: flex;
         width: 180px;
         height: 180px;
-        margin-left: 50px;
-        margin-top: 20px;
+        margin-left: 40px;
+        margin-top: 30px;
         box-shadow: 0 0 5px var(--color6);
         object-fit: cover;
        
@@ -93,7 +127,7 @@
 
     .flex{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: start;
         justify-content: center;
         margin-top: 20px;

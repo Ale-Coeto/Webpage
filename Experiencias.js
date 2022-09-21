@@ -1,9 +1,11 @@
 let txtSubtitulo = document.getElementById("exSubtitulo");
 let txtFecha = document.getElementById("exFecha");
 let iconImg = document.getElementById("exImg");
+let imgLogo = document.getElementById("exLogo");
 let txtDescripcion = document.getElementById("exP");
 let txtFecha2 = document.getElementById("exFecha2");
 let txtDescripcion2 = document.getElementById("exP2");
+
 
 let experiencias = [];
 
@@ -11,10 +13,11 @@ let vantTec = {
     boton:"exVantTec",
     subtitulo: "VantTec",
     fecha: "2022-Presente",
-    img: "<img class='exImg' src='Images/VantTec.jpeg'>",
-    descripcion: "<p>Integrante del grupo estudiantil VantTec en el área de mecánica</p>",
+    img: "<img class='exImg' src='Images/VantTec.png'>",
+    logo: "<img class='exLogo' src='Images/Logos/VantTecLogo.png'>",
+    descripcion: "<p>Integrante del grupo estudiantil VantTec en el área de mecánica</p> <ul><li>Actualmente trabajando en el proyecto Robo-boat para la competencia de RoboNation</li></ul>",
     fecha2:"",
-    descripcion2: "<p></p>"
+    descripcion2: ""
 }
 
     experiencias.push(vantTec);
@@ -23,6 +26,7 @@ let voltec = {
     boton: "exVoltec",
     subtitulo: "VOLTEC Robotics",
     img: "<img class='exImg' src='Images/Voltec.jpeg'>",
+    logo: "<img class='exLogo' src='Images/Logos/VoltecLogo1.png'>",
     fecha: "2022-Presente",
     descripcion: "<p>Mentora del equipo de FTC (FIRST TECH CHALLENGE) e impulsando la inclusión de mujeres en STEM.</p>",
     fecha2: "2019-2022",
@@ -33,9 +37,10 @@ let voltec = {
 
 let maestra = {
     boton: "exMaestra",
-    subtitulo: "Maestra Robotica",
+    subtitulo: "Maestra de Robotica",
     fecha:  "2022",
     img: "<img class='exImg' src='Images/Maestra.png'>",
+    logo: "<img class='exLogo' src='Images/Logos/VoltecLogo.png'>",
     descripcion: "<p>Clases de robótica a más de 20 niños de 3er grado de primaria durante el verano.</p> <ul> <li>Programación y construcción de robots LEGO Mindstorms </li> <li>Clases sobre fundamentos de robótica (sensores, actuadores, mecanismos simples)</li></ul>",
     fecha2:"",
     descripcion2: ""
@@ -47,6 +52,7 @@ let vitales = {
     subtitulo: "Vitales",
     fecha: "2020-2021",
     img: "<img class='exImg' src='Images/Vitales.png'>",
+    logo: "<img class='exLogo' src='Images/Logos/VitalesLogo.png'>",
     descripcion: "<p>Líder de marketing de un grupo enfocado en proyectos de ayuda a la comunidad y el medio ambiente.</p> <ul><li>Campaña ecológica a través de redes sociales</li><li>Congreso centrado en la inclusión y el trabajo en equipo</li>",
     fecha2:"",
     descripcion2: ""
@@ -60,6 +66,8 @@ function change(i){
     txtFecha.innerText = experiencias[i].fecha;
     txtDescripcion.innerHTML = experiencias[i].descripcion;
     iconImg.innerHTML = experiencias[i].img;
+    imgLogo.innerHTML = experiencias[i].logo;
+    
     
         txtFecha2.innerText = experiencias[i].fecha2;
         txtDescripcion2.innerHTML = experiencias[i].descripcion2;
@@ -82,6 +90,8 @@ function colores(i) {
 
     if(screen.width <= 725){
         btnBoton.style.borderBottom = "2px solid #1ad499";
+        btnBoton.style.borderLeft = "2px solid #2b313a"
+        console.log("J");
     }
     else{
         btnBoton.style.borderLeft = "2px solid #1ad499";

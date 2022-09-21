@@ -15,9 +15,7 @@
     margin-bottom: 10px;
 }
 
-.sobreMi li{
-    line-height: 5px;
-}
+
 
 .flexSobreMi {
     display: flex;
@@ -59,26 +57,26 @@
 }
 
 .divIdiomas{
-    flex: 1;
-    padding-left: 80px;
+    flex: 2;
+    padding-left: 40px;
 }
 
 .txtSobreMi{
-    flex: 3;
+    flex: 5;
 }
 
 .gridListas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px; 
-    row-gap: 20px;
+    column-gap: 10px; 
+    row-gap: 10px;
     padding-top: 10px;
     
 }
 
 .elementLista {
     background-color: var(--color2);
-    padding: 20px;
+    padding: 15px;
     border-radius: 1px;
 }
 
@@ -159,13 +157,36 @@
     width: 30%;
 }
 
-@media(max-width : 944px){
+@media(max-width : 754px){
+    .flexSobreMi{
+        flex-direction: column;
+    }
+    .perfilImg{
+        margin-top: 0px;
+        margin-bottom: -130px;
+        margin-left: 250px;
+        height: 120px;
+        width: 120px;
+    }
+    .divIdiomas{
+        margin-top: 20px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.divIdiomas .li {
+    line-height: 17px;
+}
+
+@media (max-width : 944px){
     .gridListas{
         grid-template-columns: 1fr;
     }
     .divIdiomas{
         flex: 1;
-        padding-left: 20px;
+        gap: 20px;
     }
     .txtSobreMi{
         flex: 1.7;
@@ -181,7 +202,6 @@
     }
     .divIdiomas{
         flex: 1;
-        padding-left: 20px;
     }
     .txtSobreMi{
         flex: 2;

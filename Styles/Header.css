@@ -1,7 +1,7 @@
 /* Header */
     header {
         color: white;
-        font-size: 14px;
+        font-size: 15px;
         font-family: 'Fira Code';
         display: flex;
         flex-direction: row;
@@ -10,7 +10,7 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 60px;
+        height: 63px;
         align-items: center;
         justify-items: center;
         z-index: 5;
@@ -18,8 +18,40 @@
        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
         
         background-color: var(--color1);
+        
 
         
+   }
+
+   .menuHeader {
+    padding-top: 40px;
+    flex-direction: column;
+    height: 250px;
+    gap: 0px;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    transition: 0.5s;
+   }
+
+   .menu{
+    flex-direction: column;
+    display: flex;
+    object-position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding-top: 0;
+    transition: 0.5s;
+
+   }
+
+   
+
+   #Home{
+    background-position: center;
+
    }
 
    .logo {
@@ -30,12 +62,13 @@
 
 .logo a {
     width: 200px;
-    padding-left: 100px;
-    color: white;
+    padding: 10px;
+    color: var(--color1);
     text-decoration: none;
+    border-radius: 20px;
 }
 
-.menu {
+nav {
     width: 590px;
     display: flex;
     justify-content: space-between;
@@ -43,12 +76,24 @@
     
 }
 
-.menu a {
+
+nav a {
     text-decoration: none;
     color: white;
 }
 
-.menu div{
+header a:hover{
+    text-decoration: underline;
+    
+}
+
+header a:hover .numHeader{
+    color: var(--color3);
+
+}
+
+
+nav div{
     display: inline-block;
 }
 
@@ -88,10 +133,40 @@ z-index: 0;
     
     }
 
+.btnMenu{
+    background-color: transparent;
+    margin-right: 20px;
+    border: none;
+   
+}
+
+.btnMenu i{
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+
     @media(max-width : 1000px){
         .linea, .linea2{
             height: 0;
         }
     }
+    @media(max-width : 750px){
+        nav{
+            display: none;
+        }
+        
+        
+    }
+
+    @media(min-width: 750px){
+        .btnMenu {
+            width: 0px;
+            display: none;
+        }
+    }
+
+
 
     
