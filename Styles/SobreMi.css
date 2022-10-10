@@ -37,8 +37,8 @@
     background-image: 
     /* top, transparent red */
     linear-gradient(
-        rgba(9,253,253,0.4), 
-        rgba(26,212,153, 0.4)
+        rgba(9,253,253,0.1), 
+        rgba(26,212,153, 0.1)
     ),
     /* your image */
     url(../Images/Perfil.jpg);

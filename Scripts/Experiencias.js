@@ -37,7 +37,7 @@ let voltec = {
 
 let maestra = {
     boton: "exMaestra",
-    subtitulo: "Maestra de Robotica",
+    subtitulo: "Maestra de Robótica",
     fecha:  "2022",
     img: "<img class='exImg' src='Images/Maestra.png'>",
     logo: "<img class='exLogo' src='Images/Logos/VoltecLogo.png'>",
