@@ -26,7 +26,7 @@ let voltec = {
     boton: "exVoltec",
     subtitulo: "VOLTEC Robotics",
     img: "<img class='exImg' src='Images/Voltec.jpeg'>",
-    logo: "<img class='exLogo' src='Images/Logos/VoltecLogo1.png'>",
+    logo: "<img class='exLogo' src='Images/Logos/VoltecPlain.png'>",
     fecha: "2022-Presente",
     descripcion: "<p>Mentora del equipo de FTC (FIRST TECH CHALLENGE) e impulsando la inclusión de mujeres en STEM.</p>",
     fecha2: "2019-2022",
