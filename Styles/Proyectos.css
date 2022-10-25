@@ -109,7 +109,7 @@
 
     .gris {
         display: block;
-        color: rgb(187, 187, 187);
+        color: var(--colorGray);
         bottom: 19px;
         font-size: 13px;
         font-family: 'Fira Code';

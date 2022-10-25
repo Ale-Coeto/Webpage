@@ -1,0 +1,98 @@
+.subpagina{
+    max-width: 100%;
+    padding: 100px 170px !important;
+
+}
+
+.subpagina .subtitulo2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.subpagina .subtitulo {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.subpagina .subtitulo1 {
+    color: var(--color6);
+    display: inline-block;
+}
+
+.subpagina .gris {
+    color: var(--colorGray);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.subpagina h3 {
+    font-weight: 700 !important;
+    margin-top: 50px;
+}
+
+.empty {
+    height: 100px;
+}
+
+.grid {
+    grid-template-columns: 1fr 4fr 1fr !important;
+    column-gap: 50px !important;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+
+.subpagina .gris{
+    font-size: 18px;
+    display:block;
+}
+
+.imagen {
+    display: inline-block;
+    margin: 50px;
+    width: 70%;
+
+}
+
+.subpagina p {
+    line-height: 25px;
+}
+
+.subpagina ul{
+    margin-top: 30px;
+    
+}
+
+.subpagina a {
+    padding-left: 10px !important;
+    color: white !important;
+    padding-top: 0 !important;
+}
+
+
+.subpagina i {
+    padding-left: 10px;
+    font-size: 22px;
+
+}
+
+#link {
+    color: var(--colorGray);
+    padding: 0 !important;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+
+}
+
+.icon {
+    text-align: center !important;
+    position: relative;
+}
+
+#link:hover{
+    color: var(--color3);
+}
+

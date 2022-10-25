@@ -28,9 +28,22 @@
     font-family: Poppins,  'Times New Roman', Times, serif;
     font-size: 24px;
     z-index: 0;
-    line-height: 18px;
+    line-height: 1.1;
     font-weight: 500;
     margin-top: 0;
+    color: white;
+
+  }
+
+  .subtitulo2::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 4%;
+    height: .26em;
+    width: 100%;
+    z-index: -1;
+    background: var(--color7);
 
   }
 
@@ -46,17 +59,7 @@
   
   
   
-  .subtitulo2::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 4%;
-    height: .3em;
-    width: 100%;
-    z-index: -1;
-    background: var(--color7);
-
-  }
+  
 
   i {
     font-size: 16px;

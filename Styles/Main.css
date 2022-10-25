@@ -7,6 +7,7 @@
     --color3: #09fdfd;
     --color6: #1ad499;
     --color7: #16b895;
+    --colorGray: rgb(144, 144, 145);
 }
 
 @font-face {
@@ -26,7 +27,7 @@
         padding-top:0px;
         font-family: 'Nunito', Arial;
         margin: 0;
-        background-color: var(--color1);
+        background-color: var(--color1) !important;
         color: white;
         position: absolute;
         height: 100%;
