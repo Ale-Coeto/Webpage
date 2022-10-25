@@ -42,6 +42,10 @@
     margin-bottom: 50px;
 }
 
+.mensaje {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
 
 .subpagina .gris{
     font-size: 18px;
@@ -60,7 +64,7 @@
 }
 
 .subpagina ul{
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 
