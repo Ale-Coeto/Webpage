@@ -142,7 +142,7 @@
 
     
 
-    #githubP1:hover, #githubP2:hover, #githubP3:hover, #cadP2:hover {
+    #githubP1:hover, #githubP2:hover, #githubP3:hover, #githubP4:hover, #cadP2:hover {
         color: var(--color3);
         cursor: pointer;
     }
@@ -178,6 +178,14 @@
     }
     .lineaP3 {
         background-color: rgb(255, 255, 71);
+    }
+
+    #githubP4 {
+        color: orange;
+    }
+
+    .lineaP4 {
+        background-color: orange;
     }
 
     .lineaC1 {

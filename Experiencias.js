@@ -9,6 +9,19 @@ let txtDescripcion2 = document.getElementById("exP2");
 
 let experiencias = [];
 
+let roborregos = {
+    boton:"exRoborregos",
+    subtitulo: "Roborregos",
+    fecha: "2022-Presente",
+    img: "<img class='exImg' src='Images/Logos/Roborregos.png'>",
+    logo: "<img class='exLogo' src='Images/Logos/RoborregosLogo.png'>",
+    descripcion: "<p> Integrante del equipo de robótica Roborregos en el área de programación después de participar en su competencia Candidates.</p> <ul><li>5to lugar en la competencia en equipos Candidates 2022</li><li>Programación en C++ y Arduino del algoritmo para recorrer y optimizar el laberinto en Candidates 2022</li></ul>",
+    fecha2:"",
+    descripcion2: ""
+}
+
+    experiencias.push(roborregos);
+
 let vantTec = {
     boton:"exVantTec",
     subtitulo: "VantTec",
