@@ -15,7 +15,7 @@ let roborregos = {
     fecha: "2022-Presente",
     img: "<img class='exImg' src='Images/Logos/Roborregos.png'>",
     logo: "<img class='exLogo' src='Images/Logos/RoborregosLogo.png'>",
-    descripcion: "<p> Integrante del equipo de robótica Roborregos en el área de programación después de participar en su competencia Candidates.</p> <ul><li>5to lugar en la competencia en equipos Candidates 2022</li><li>Programación en C++ y Arduino del algoritmo para recorrer y optimizar el laberinto en Candidates 2022</li></ul>",
+    descripcion: "<p> Programadora en el equipo representativo de robótica Roborregos.</p> <ul><li>Control de movimiento (C++) y visión del robot (MicroPython) para la competencia Robocup Soccer Lightweight</li><li>5to lugar en la competencia en equipos Candidates 2022</li><li>Programación en C++ del algoritmo para recorrer y optimizar el laberinto en Candidates 2022</li></ul>",
     fecha2:"",
     descripcion2: ""
 }
@@ -41,7 +41,7 @@ let voltec = {
     img: "<img class='exImg' src='Images/Voltec.jpeg'>",
     logo: "<img class='exLogo' src='Images/Logos/VoltecPlain.png'>",
     fecha: "2022-Presente",
-    descripcion: "<p>Mentora del equipo de FTC (FIRST TECH CHALLENGE) e impulsando la inclusión de mujeres en STEM.</p>",
+    descripcion: "<p>Mentora del equipo de robótica Voltec para las competencias FTC (FIRST TECH CHALLENGE) y FRC (FIRST ROBOTICS COMPETITION) e impulsando la inclusión de mujeres en STEM.</p><ul><li>Ranking 3 y Think Award en el Regional Laguna FTC</li><li>Top 10 en el nacional CDMX FTC</li><li>Finalistas y Gracious Professionalism Award en el regional Monterrey FRC</li></ul> ",
     fecha2: "2019-2022",
     descripcion2:"<p>Líder de ingeniería del equipo representativo de robótica de la Prepa Tec EGL. </p> <ul><li>Programación del robot en Java</li> <li>Diseño CAD en OnShape</li><li>Mecánica y construcción de robots</li><li>Participación en eventos de promoción de STEM para niños y jóvenes</li></ul>"
     
